@@ -1,1 +1,1 @@
-console.log('Welcome to the class!')
+console.log('Let\'s get started with node.Js')
