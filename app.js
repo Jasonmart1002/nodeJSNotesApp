@@ -1,7 +1,9 @@
-const validator = require('validator')
+const chalk = require('chalk');
 const getNotes = require('./notes.js')
 
 const msg = getNotes()
 console.log(msg)
 
-console.log(validator.isURL('https://Raynemechs.com'))
+console.log(chalk.green('Success!'));
+console.log(chalk.bold('This is bold'));
+console.log(chalk.inverse('Inverse'));
