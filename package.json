@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Jasonmart1002/nodeJSNotesApp/issues"
   },
-  "homepage": "https://github.com/Jasonmart1002/nodeJSNotesApp#readme"
+  "homepage": "https://github.com/Jasonmart1002/nodeJSNotesApp#readme",
+  "dependencies": {
+    "validator": "^13.6.0"
+  }
 }
