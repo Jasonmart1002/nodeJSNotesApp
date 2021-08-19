@@ -4,6 +4,6 @@ const getNotes = require('./notes.js')
 const msg = getNotes()
 console.log(msg)
 
-const greenMsg = chalk.green.bold.inverse('Success!')
+const greenMsg = chalk.green.bold.inverse('Error!')
 
 console.log(greenMsg);
