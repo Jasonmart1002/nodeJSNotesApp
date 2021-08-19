@@ -16,7 +16,7 @@ yargs.command({
             type: 'string'
         },
         body: {
-            describe: 'Note description',
+            describe: 'Note body',
             demandOption: true,
             type: 'string'
         }
@@ -60,4 +60,3 @@ yargs.command({
 
 
 yargs.parse()
-//console.log(yargs.argv)
